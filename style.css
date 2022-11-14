@@ -49,6 +49,7 @@ nav{
     background: rgb(12, 3, 24);
     height: 8vh;
     width: 100%;
+    z-index: 99;
 }
 
 .nav-list{
