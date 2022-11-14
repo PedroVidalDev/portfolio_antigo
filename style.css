@@ -46,8 +46,9 @@ nav{
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    background: rgb(12, 3, 24);
-    height: 8vh;
+    background: rgba(24, 16, 34, 0.7);
+    backdrop-filter: blur(10px);
+    height: 10vh;
     width: 100%;
     z-index: 99;
 }
@@ -491,13 +492,17 @@ img.linkedin:hover{
         font-size: 1rem;
     }
 
+    nav{
+        background: rgb(12, 3, 24);
+    }
+
     .nav-list{
         position: fixed;
         top: 8vh;
         right: 0;
         width: 100vw;
         height: 92vh;
-        background: rgb(12, 3, 24);
+        background: rgb(12, 3, 24, 0.8);
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
