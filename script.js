@@ -12,7 +12,7 @@ function show(){
     }
 }
 
-function hidden(){
+function hid(){
     menu.classList.remove("active");
 }
 
