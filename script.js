@@ -12,6 +12,10 @@ function show(){
     }
 }
 
+function hidden(){
+    menu.classList.remove("active");
+}
+
 // HABILIDADES //
 
 function html_tr(){
